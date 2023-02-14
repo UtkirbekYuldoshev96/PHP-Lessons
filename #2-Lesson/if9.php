@@ -5,10 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>if 7</title>
+    <title>if 9</title>
 </head>
 <body>
-<form action="if7.php" method="get">
+<form action="if9.php" method="get">
     Qiymat kiriting =
     <input type="text" name="a"><br>
     Qiymat kiriting =
@@ -19,14 +19,17 @@
 if (isset($_GET['a'],$_GET['b'])){
     $a = $_GET['a'];
     $b = $_GET['b'];
+    $c = null;
     if (is_numeric($a) and is_numeric($b)){
-        if ($a<$b){
-            echo "Son kichik = ". $a;
-        }elseif ($b<$a){
-            echo "Son kichik = ". $b;
+        if($a>$b){
+            $c = $a;
+            $a = $b;
+            $b = $c;
         }else{
-            echo "o'zgaruvchilarda katta yoki kichik amallar topilmadi!";
+            echo "o'zgaruvchilarda katta yoki kichik amallar topildi!";
         }
+        echo "A soni kichik = ". $a . "<br>";
+        echo "B soni katta = ". $b . "<br>";
     }else{
         echo "O'zgaruvchilarga ma'lumot kiritmadingiz!";
     }
