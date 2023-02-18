@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e91bcf8-a7be-40da-bd5b-1b48e5f51649" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if10.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if11.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if12.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if8.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/if9.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/if13.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/if14.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if7.php" beforeDir="false" afterPath="$PROJECT_DIR$/if7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/if12.php" beforeDir="false" afterPath="$PROJECT_DIR$/if12.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TelegramBots/#1-TelgBot-Lesson-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../#3-Lesson" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunDashboard">
@@ -71,7 +67,7 @@
       <workItem from="1676215415208" duration="5171000" />
       <workItem from="1676266195172" duration="4731000" />
       <workItem from="1676287928434" duration="5872000" />
-      <workItem from="1676354044816" duration="281000" />
+      <workItem from="1676354044816" duration="2705000" />
     </task>
     <servers />
   </component>
